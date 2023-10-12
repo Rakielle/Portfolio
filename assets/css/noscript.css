@@ -1,0 +1,25 @@
+
+body.intial-state #banner h2 {
+  -moz-transform: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  opacity: 1;
+}
+
+body.intial-state #banner h2:before,
+body.intial-state #banner h2:after {
+  width: 100%;
+}
+
+body.intial-state #banner .more {
+  -moz-transform: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  opacity: 1;
+}
+
+body.intial-state #banner:after {
+  opacity: 0;
+}
